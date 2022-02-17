@@ -1,6 +1,8 @@
 import { Typography } from "@mui/material";
 import React from "react";
 
+import "./Profile.css";
+
 export const Profile = () => {
   return (
     <div className="profile container-shadow">

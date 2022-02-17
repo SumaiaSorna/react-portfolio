@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Grid } from "@mui/material";
 
 import { Profile } from "./components/Profile";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/";
 import { Footer } from "./components/Footer";
-import { Projects } from "./pages/Projects";
-import { AboutMe } from "./pages/AboutMe";
+import { Projects } from "./pages/Projects/Projects";
+import { AboutMe } from "./pages/AboutMe/index";
+import { PageNotFound } from "./pages/PageNotFound/index";
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -27,15 +28,14 @@ export const App = () => {
         </Grid>
         <Grid item xs style={{ backgroundColor: "red" }}>
           <Header />
-          {/* <Routes>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/">
-              <AboutMe />
-            </Route>
-          </Routes>
-          <Footer /> */}
+          <Router>
+            <Routes>
+              <Route exact={true} path="/projects" element={<Projects />} />
+              <Route exact={true} path="/" element={<AboutMe />} />
+              <Route path="/*" element={<PageNotFound />} />
+            </Routes>
+          </Router>
+          <Footer />
         </Grid>
       </Grid>
     </Container>

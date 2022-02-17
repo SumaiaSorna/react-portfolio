@@ -12,7 +12,7 @@ export const Profile = () => {
       </div>
 
       <figure className="profile-image">
-        <img src="" alt="" />
+        <img src={require("../../assets/images/displayImage.jpg")} alt="" />
       </figure>
 
       <div className="profile-info">

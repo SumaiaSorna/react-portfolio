@@ -1,4 +1,13 @@
+import React from "react";
 import { Container, Grid } from "@mui/material";
+
+import { Profile } from "./components/Profile";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Projects } from "./pages/Projects";
+import { AboutMe } from "./pages/AboutMe";
+
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -18,9 +27,15 @@ export const App = () => {
         </Grid>
         <Grid item xs style={{ backgroundColor: "red" }}>
           <Header />
-          <Projects />
-          <Resume />
-          <Footer />
+          {/* <Routes>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/">
+              <AboutMe />
+            </Route>
+          </Routes>
+          <Footer /> */}
         </Grid>
       </Grid>
     </Container>

@@ -20,13 +20,15 @@ export const App = () => {
           <Profile />
         </Grid>
         <Grid item xs style={{ backgroundColor: "white" }}>
-          <Header />
           <Router>
-            <Routes>
-              <Route exact={true} path="/projects" element={<Projects />} />
-              <Route exact={true} path="/" element={<AboutMe />} />
-              <Route path="/*" element={<PageNotFound />} />
-            </Routes>
+            <Header />
+            <div className="main-content container-shadow">
+              <Routes>
+                <Route exact={true} path="/projects" element={<Projects />} />
+                <Route exact={true} path="/" element={<AboutMe />} />
+                <Route path="/*" element={<PageNotFound />} />
+              </Routes>
+            </div>
           </Router>
           <Footer />
         </Grid>

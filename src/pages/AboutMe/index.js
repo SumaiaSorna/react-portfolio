@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./AboutMe.css";
+
 export const AboutMe = () => {
-  return <div> this is AboutMe page</div>;
+  return <Grid container className=""></Grid>;
 };

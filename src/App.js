@@ -15,11 +15,11 @@ import "./App.css";
 export const App = () => {
   return (
     <Container className={"top-60"}>
-      <Grid container spacing={6}>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+      <Grid container>
+        <Grid item xs={12} sm={12} md={4} lg={3} sx={{ m: 2 }}>
           <Profile />
         </Grid>
-        <Grid item xs style={{ backgroundColor: "white" }}>
+        <Grid item xs style={{ backgroundColor: "white" }} sx={{ m: 2 }}>
           <Router>
             <Header />
             <div className="main-content container-shadow">

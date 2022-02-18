@@ -1,7 +1,9 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
-
 import "./AboutMe.css";
+
+const profileData = require("../../utils/profileData.json");
+console.log(profileData);
 
 export const AboutMe = () => {
   return (
@@ -24,7 +26,18 @@ export const AboutMe = () => {
       </Grid>
 
       {/* Skills */}
-      <Grid container className="section"></Grid>
+      <Grid container className="section">
+        {profileData.map((skill) => (
+          <Grid item xs={12} sm={6} md={3}>
+            <Typography variant="h6" className="skills-title">
+              {skill.title}
+            </Typography>
+            {skill.description.map((element) => (
+              <Typography>{element}</Typography>
+            ))}
+          </Grid>
+        ))}
+      </Grid>
     </>
   );
 };

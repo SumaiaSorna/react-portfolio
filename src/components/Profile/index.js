@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
+// import CustomButton from "../Button/index";
 
 import "./Profile.css";
 
@@ -18,7 +19,7 @@ export const Profile = () => {
       <div className="profile-info">
         Insert Timeline
         <br />
-        <button>My Button</button>
+        {/* <CustomButton /> */}
       </div>
     </div>
   );

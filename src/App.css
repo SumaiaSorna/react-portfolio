@@ -3,10 +3,21 @@
 }
 
 /* Margins and Paddings */
-
 .top-60 {
   margin-top: 60px !important;
 }
+
+/* .top-30 {
+  margin-top: 30px !important;
+}
+
+.p-30 {
+  padding: 30px !important;
+}
+
+.pb-45 {
+  padding-bottom: 45px !important;
+} */
 
 @media (max-width: 991px) {
   .top-60 {

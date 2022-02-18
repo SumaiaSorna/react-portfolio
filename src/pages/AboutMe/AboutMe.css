@@ -1,0 +1,26 @@
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+/* .section-title {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+} */
+
+/* .section-title span {
+  position: relative;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+} */
+
+.section-text {
+  padding: 30px;
+}

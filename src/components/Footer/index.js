@@ -1,5 +1,27 @@
 import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+import "./Footer.css";
 
 export const Footer = () => {
-  return <div> this is Footer components</div>;
+  return (
+    <div className="footer">
+      {/* <h3>
+          Sum<span>aia</span> Salah<span>uddin</span>
+        </h3> */}
+      <div className="contact-me">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/sumaia-salahuddin-519521218/"
+        >
+          <LinkedInIcon />
+        </a>
+        <a target="_blank" href="https://github.com/SumaiaSorna">
+          <GitHubIcon />
+        </a>
+        <a href="mailto:sorna.sumaia@gmail.com">Email</a>
+      </div>
+    </div>
+  );
 };

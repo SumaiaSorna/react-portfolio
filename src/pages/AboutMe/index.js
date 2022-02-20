@@ -33,18 +33,20 @@ export const AboutMe = () => {
           <span></span>
           <h6 className="section-title">Skills</h6>
         </Grid>
-        {profileData.map((skill) => (
-          <Grid item xs={12} sm={6} md={3}>
-            <Paper elevation={0}>
-              <Typography variant="h6" className="skills-title">
-                {skill.title}
-              </Typography>
-              {skill.description.map((element) => (
-                <Typography variant="h6">{element}</Typography>
-              ))}
-            </Paper>
-          </Grid>
-        ))}
+        <Grid container justifyContent="space-between" spacing={1}>
+          {profileData.map((skill) => (
+            <Grid item xs={12} sm={6} md={3}>
+              <Paper elevation={0}>
+                <Typography variant="h6" className="skills-title">
+                  {skill.title}
+                </Typography>
+                {skill.description.map((element) => (
+                  <Typography variant="h6">{element}</Typography>
+                ))}
+              </Paper>
+            </Grid>
+          ))}
+        </Grid>
       </Grid>
     </div>
   );

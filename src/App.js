@@ -4,7 +4,7 @@ import { Container, Grid } from "@mui/material";
 import { Profile } from "./components/Profile";
 import { Header } from "./components/Header/";
 import { Footer } from "./components/Footer";
-import { Projects } from "./pages/Projects/Projects";
+import { Projects } from "./pages/Projects";
 import { AboutMe } from "./pages/AboutMe/index";
 import { PageNotFound } from "./pages/PageNotFound/index";
 

@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
-// import CustomButton from "../Button/index";
+
+import { CustomButton } from "../Button/index";
 
 import "./Profile.css";
 
@@ -16,11 +17,7 @@ export const Profile = () => {
         <img src={require("../../assets/images/displayImage.jpg")} alt="" />
       </figure>
 
-      <div className="profile-info">
-        Insert Timeline
-        <br />
-        {/* <CustomButton /> */}
-      </div>
+      <CustomButton />
     </div>
   );
 };

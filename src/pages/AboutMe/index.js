@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Paper } from "@mui/material";
+import { Grid, Typography, Paper, TextField } from "@mui/material";
 import "./AboutMe.css";
 
 const profileData = require("../../utils/profileData.json");
@@ -33,13 +33,16 @@ export const AboutMe = () => {
           <span></span>
           <h6 className="section-title">Skills</h6>
         </Grid>
-        <Grid container justifyContent="space-between" spacing={1}>
+        <Grid
+          container
+          justifyContent="space-between"
+          spacing={1}
+          className="skills-title"
+        >
           {profileData.map((skill) => (
             <Grid item xs={12} sm={6} md={3}>
               <Paper elevation={0}>
-                <Typography variant="h6" className="skills-title">
-                  {skill.title}
-                </Typography>
+                <Typography variant="h6">{skill.title}</Typography>
                 {skill.description.map((element) => (
                   <Typography variant="h6">{element}</Typography>
                 ))}
@@ -47,6 +50,38 @@ export const AboutMe = () => {
             </Grid>
           ))}
         </Grid>
+      </Grid>
+
+      {/* Contact Me */}
+      <Grid container className="section">
+        {/* contact form */}
+        <Grid item xs={12} lg={7}>
+          <Grid container>
+            <Grid item pb={6}>
+              <span></span>
+              <h6 className="section-title">Contact Form</h6>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Grid container spacing={3}>
+                <Grid item xs={12} sm={6}>
+                  <TextField fullWidth name="name" label="Name" />
+                </Grid>
+
+                <Grid item xs={12} sm={6}>
+                  <TextField fullWidth name="email" label="Email" />
+                </Grid>
+
+                <Grid item xs={12}>
+                  <TextField fullWidth name="message" label="Message" />
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+
+        {/* contact info */}
+        <Grid item xs={12} lg={5}></Grid>
       </Grid>
     </div>
   );

@@ -1,14 +1,13 @@
 .section-title {
   font-size: 18px;
-  font-weight: 600;
-  position: relative;
-  margin: 0;
 }
 
 .section-text {
   padding: 30px;
+  margin-bottom: 20px;
 }
 
 .skills-title {
   padding: 30px;
+  margin-bottom: 20px;
 }

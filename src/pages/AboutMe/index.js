@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Paper, TextField } from "@mui/material";
+import { Grid, Typography, Paper, TextField, Divider } from "@mui/material";
 import "./AboutMe.css";
 
 const profileData = require("../../utils/profileData.json");
@@ -43,6 +43,7 @@ export const AboutMe = () => {
             <Grid item xs={12} sm={6} md={3}>
               <Paper elevation={0}>
                 <Typography variant="h6">{skill.title}</Typography>
+                <Divider />
                 {skill.description.map((element) => (
                   <Typography variant="h6">{element}</Typography>
                 ))}

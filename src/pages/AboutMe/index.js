@@ -7,7 +7,7 @@ console.log(profileData);
 
 export const AboutMe = () => {
   return (
-    <>
+    <div>
       {/* AboutMe */}
       <Grid container className="section">
         <Grid item>
@@ -46,6 +46,6 @@ export const AboutMe = () => {
           </Grid>
         ))}
       </Grid>
-    </>
+    </div>
   );
 };

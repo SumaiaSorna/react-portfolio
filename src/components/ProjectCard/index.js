@@ -13,7 +13,7 @@ const projectsData = require("../../utils/projectsData.json");
 export const ProjectCard = () => {
   return (
     <Grid item xs={12}>
-      <Grid container spacing={2}>
+      <Grid container spacing={4}>
         {projectsData.map((project) => (
           <Grid item key={project.title}>
             <Card sx={{ maxWidth: 345 }}>
@@ -37,7 +37,7 @@ export const ProjectCard = () => {
                   View Link
                 </Button>
                 <Button size="small" href={project.repo} target="_blank">
-                  View code
+                  View Link
                 </Button>
               </CardActions>
             </Card>

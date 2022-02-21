@@ -8,7 +8,7 @@ import "./Navigation.css";
 
 export const Navigation = () => {
   const navigate = useNavigate();
-  const [value, setValue] = useState();
+  const [value, setValue] = useState("about");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

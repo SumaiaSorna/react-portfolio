@@ -3,7 +3,6 @@ import { Grid, Typography, Paper, TextField, Divider } from "@mui/material";
 import "./AboutMe.css";
 
 const profileData = require("../../utils/profileData.json");
-console.log(profileData);
 
 export const AboutMe = () => {
   return (
@@ -29,7 +28,7 @@ export const AboutMe = () => {
 
       {/* Skills */}
       <Grid container className="section">
-        <Grid xs={12}>
+        <Grid item xs={12}>
           <span></span>
           <h6 className="section-title">Skills</h6>
         </Grid>

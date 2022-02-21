@@ -4,32 +4,46 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Grid } from "@mui/material";
 
 import "./ProjectCard.css";
 
+const projectsData = require("../../utils/projectsData.json");
+
 export const ProjectCard = () => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="140"
-        image={require("../../assets/images/Bored-As-Book-Home.png")}
-        sx={{ objectFit: "contain", width: "100%" }}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <Grid item xs={12}>
+      <Grid container spacing={2}>
+        {projectsData.map((project) => (
+          <Grid item key={project.title}>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                height="140"
+                image={require("../../assets/images/Bored-As-Book-Home.png")}
+                sx={{ objectFit: "contain", width: "100%" }}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  {project.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {project.description}
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" href={project.link} target="_blank">
+                  View Link
+                </Button>
+                <Button size="small" href={project.repo} target="_blank">
+                  View code
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+    </Grid>
   );
 };

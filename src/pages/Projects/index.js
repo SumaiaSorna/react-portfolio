@@ -4,15 +4,6 @@ export const Projects = () => {
   return (
     <div>
       <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
     </div>
   );
 };

@@ -1,5 +1,19 @@
-import React from "react";
+import { ProjectCard } from "../../components/ProjectCard/index";
 
 export const Projects = () => {
-  return <div> this is Projects page</div>;
+  return (
+    <div>
+      <h1>This is Projects page</h1>
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+    </div>
+  );
 };

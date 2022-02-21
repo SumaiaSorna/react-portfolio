@@ -14,7 +14,10 @@ export const Profile = () => {
       </div>
 
       <figure className="profile-image">
-        <img src={require("../../assets/images/displayImage.jpg")} alt="" />
+        <img
+          src={require("../../assets/images/displayImage.jpg")}
+          alt="Profile-pic"
+        />
       </figure>
 
       <CustomButton />

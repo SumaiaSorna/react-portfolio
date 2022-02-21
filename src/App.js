@@ -6,6 +6,8 @@ import { Header } from "./components/Header/";
 import { Footer } from "./components/Footer";
 import { Projects } from "./pages/Projects";
 import { AboutMe } from "./pages/AboutMe/index";
+import { ContactMe } from "./pages/ContactMe/index";
+
 import { PageNotFound } from "./pages/PageNotFound/index";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,7 +27,8 @@ export const App = () => {
             <div className="main-content container-shadow">
               <Routes>
                 <Route exact={true} path="/projects" element={<Projects />} />
-                <Route exact={true} path="/" element={<AboutMe />} />
+                <Route exact={true} path="/about" element={<AboutMe />} />
+                <Route exact={true} path="/contact" element={<ContactMe />} />
                 <Route path="/*" element={<PageNotFound />} />
               </Routes>
             </div>

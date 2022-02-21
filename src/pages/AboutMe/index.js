@@ -53,9 +53,7 @@ export const AboutMe = () => {
         </Grid>
       </Grid>
 
-      {/* Contact Me */}
-      <Grid container className="section">
-        {/* contact form */}
+      {/* <Grid container className="section">
         <Grid item xs={12} lg={7}>
           <Grid container>
             <Grid item pb={6}>
@@ -81,9 +79,8 @@ export const AboutMe = () => {
           </Grid>
         </Grid>
 
-        {/* contact info */}
         <Grid item xs={12} lg={5}></Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 };

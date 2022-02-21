@@ -4,7 +4,7 @@ import "./ContactMe.css";
 
 export const ContactMe = () => {
   return (
-    <Grid container className="section">
+    <Grid container className="contact-section">
       <Grid item lg={7}>
         <Grid container>
           <Grid item pb={6}>

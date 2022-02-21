@@ -1,12 +1,13 @@
-import { Grid, TextField } from "@mui/material";
+import { Button, Grid, TextField } from "@mui/material";
+//import { CustomButton } from "../../components/Button/index";
+import "./ContactMe.css";
 
 export const ContactMe = () => {
   return (
     <Grid container className="section">
-      <Grid item xs={12} lg={7}>
+      <Grid item lg={7}>
         <Grid container>
           <Grid item pb={6}>
-            <span></span>
             <h6 className="section-title">Contact Me</h6>
           </Grid>
 
@@ -28,13 +29,24 @@ export const ContactMe = () => {
                   name="message"
                   label="Message*"
                 />
+                <Button
+                  className="btn"
+                  type="submit"
+                  fullWidth
+                  variant="contained"
+                  sx={{ mt: 5, mb: 2 }}
+                >
+                  Submit
+                </Button>
+
+                {/* <Grid item xs={12}>
+                  <CustomButton variant="text" />
+                </Grid> */}
               </Grid>
             </Grid>
           </Grid>
         </Grid>
       </Grid>
-
-      <Grid item xs={12} lg={5}></Grid>
     </Grid>
   );
 };

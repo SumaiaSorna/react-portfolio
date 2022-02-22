@@ -34,10 +34,10 @@ export const ProjectCard = () => {
               </CardContent>
               <CardActions>
                 <Button size="small" href={project.link} target="_blank">
-                  View Link
+                  Link
                 </Button>
                 <Button size="small" href={project.repo} target="_blank">
-                  View Link
+                  View Code
                 </Button>
               </CardActions>
             </Card>

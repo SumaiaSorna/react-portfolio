@@ -21,7 +21,7 @@ export const ProjectCard = () => {
                 component="img"
                 alt="green iguana"
                 height="140"
-                image={require("../../assets/images/Bored-As-Book-Home.png")}
+                image={require("../../assets/gifs/readme-generator.gif")}
                 sx={{ objectFit: "contain", width: "100%" }}
               />
               <CardContent>
@@ -33,10 +33,24 @@ export const ProjectCard = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" href={project.link} target="_blank">
+                <Button
+                  className="btn"
+                  type="submit"
+                  variant="contained"
+                  size="small"
+                  href={project.link}
+                  target="_blank"
+                >
                   Link
                 </Button>
-                <Button size="small" href={project.repo} target="_blank">
+                <Button
+                  className="btn"
+                  type="submit"
+                  variant="contained"
+                  size="small"
+                  href={project.repo}
+                  target="_blank"
+                >
                   View Code
                 </Button>
               </CardActions>

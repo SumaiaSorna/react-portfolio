@@ -29,6 +29,8 @@ export const App = () => {
                 <Route exact={true} path="/projects" element={<Projects />} />
                 <Route exact={true} path="/about" element={<AboutMe />} />
                 <Route exact={true} path="/contact" element={<ContactMe />} />
+                <Route exact={true} path="/" element={<AboutMe />} />
+
                 <Route path="/*" element={<PageNotFound />} />
               </Routes>
             </div>

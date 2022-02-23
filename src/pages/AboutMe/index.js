@@ -44,7 +44,7 @@ export const AboutMe = () => {
                 <Typography variant="h6">{skill.title}</Typography>
                 <Divider />
                 {skill.description.map((element) => (
-                  <Typography>{element}</Typography>
+                  <Typography key={element}>{element}</Typography>
                 ))}
               </Paper>
             </Grid>

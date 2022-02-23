@@ -21,7 +21,10 @@ export const ProjectCard = () => {
                 component="img"
                 alt="green iguana"
                 height="140"
-                image={require("../../assets/gifs/readme-generator.gif")}
+                image={require("../../assets/images/" + project.image)}
+                //         {require('../../../assets/images/website/homepage/' +
+                // item.image +
+                // '.png')}
                 sx={{ objectFit: "contain", width: "100%" }}
               />
               <CardContent>
@@ -38,10 +41,10 @@ export const ProjectCard = () => {
                   type="submit"
                   variant="contained"
                   size="small"
-                  href={project.link}
+                  href={project.link ? project.link : project.walkthroughVideo}
                   target="_blank"
                 >
-                  Link
+                  {project.link ? "link" : "video"}
                 </Button>
                 <Button
                   className="btn"

@@ -32,4 +32,8 @@ A clean and responsive personal portfolio built with React, displaying informati
 
 ## Screenshots
 
-![Final look of my updated Portfolio](./assets/screenshots/portfolio.png)
+![Final look of my Portfolio-about-me](./src/assets/screenshots/portfolio-about-me.png)
+
+![Final look of my Portfolio-projects](./src/assets/screenshots/portfolio-projects.png)
+
+![Final look of my Portfolio-contact-me](./src//assets/screenshots/portfolio-contact-me.png)

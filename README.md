@@ -10,6 +10,7 @@ Click [here](#) to view deployed application on Github page.
 - [Description](#description)
 - [Deployed URL](#deployed-url)
 - [Technologies Used](#technologies-used)
+- [Launch The App](#launch-the-app)
 - [Layout Design](#layout-design)
 - [Screenshots](#screenshots)
 
@@ -25,6 +26,12 @@ A clean and responsive personal portfolio built with React, displaying informati
 - Javascript
 - Material UI
 - CSS
+
+### Launch The App
+
+```
+npm run start
+```
 
 ### Layout Design
 

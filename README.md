@@ -28,7 +28,7 @@ A clean and responsive personal portfolio built with React, displaying informati
 
 ### Layout Design
 
-![Layout design for my Portfolio](./assets/designs/design-layout.png)
+![Layout design for my Portfolio](./src/assets/designs/design-layout.png)
 
 ## Screenshots
 

@@ -13,6 +13,7 @@ Click [here](#) to view deployed application on Github page.
 - [Launch The App](#launch-the-app)
 - [Layout Design](#layout-design)
 - [Screenshots](#screenshots)
+- [Questions](#questions)
 
 ## Getting Started
 
@@ -44,3 +45,7 @@ npm run start
 ![Final look of my Portfolio-projects](./src/assets/screenshots/portfolio-projects.png)
 
 ![Final look of my Portfolio-contact-me](./src//assets/screenshots/portfolio-contact-me.png)
+
+### Questions
+
+If you have any questions about this application, please feel free to contact me in my <a href="mailto:sorna.sumaia@gmail.com">email.</a>

@@ -16,7 +16,7 @@ export const ProjectCard = () => {
       <Grid container spacing={4}>
         {projectsData.map((project) => (
           <Grid item key={project.title}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card className="project-card" sx={{ maxWidth: 350 }}>
               <CardMedia
                 component="img"
                 alt="green iguana"

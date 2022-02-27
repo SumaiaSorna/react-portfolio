@@ -2,7 +2,7 @@
 
 ## Deployed URL
 
-Click [here](#) to view deployed application on Github page.
+Click [here](https://sumaiasorna.github.io/react-portfolio/) to view deployed application on Github page.
 
 ## Table Of Contents
 

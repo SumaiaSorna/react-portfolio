@@ -7,9 +7,6 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <div className="footer">
-      {/* <h3>
-          Sum<span>aia</span> Salah<span>uddin</span>
-        </h3> */}
       <div className="contact-me">
         <a
           target="_blank"

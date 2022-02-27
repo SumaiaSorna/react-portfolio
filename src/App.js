@@ -7,9 +7,6 @@ import { Footer } from "./components/Footer";
 import { Projects } from "./pages/Projects";
 import { AboutMe } from "./pages/AboutMe/index";
 import { ContactMe } from "./pages/ContactMe/index";
-
-import { PageNotFound } from "./pages/PageNotFound/index";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -29,9 +26,7 @@ export const App = () => {
                 <Route exact={true} path="/projects" element={<Projects />} />
                 <Route exact={true} path="/about" element={<AboutMe />} />
                 <Route exact={true} path="/contact" element={<ContactMe />} />
-                <Route exact={true} path="/" element={<AboutMe />} />
-
-                <Route path="/*" element={<PageNotFound />} />
+                <Route path="/*" element={<AboutMe />} />
               </Routes>
             </div>
           </Router>

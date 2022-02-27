@@ -22,9 +22,6 @@ export const ProjectCard = () => {
                 alt="green iguana"
                 height="140"
                 image={require("../../assets/images/" + project.image)}
-                //         {require('../../../assets/images/website/homepage/' +
-                // item.image +
-                // '.png')}
                 sx={{ objectFit: "contain", width: "100%" }}
               />
               <CardContent>

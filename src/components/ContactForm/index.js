@@ -1,5 +1,4 @@
 import { Button, Grid, TextField } from "@mui/material";
-//import { CustomButton } from "../../components/Button/index";
 import "./ContactForm.css";
 
 export const ContactForm = () => {
@@ -38,10 +37,6 @@ export const ContactForm = () => {
                 >
                   Submit
                 </Button>
-
-                {/* <Grid item xs={12}>
-                  <CustomButton variant="text" />
-                </Grid> */}
               </Grid>
             </Grid>
           </Grid>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d757ebb7.css",
-    "main.js": "/react-portfolio/static/js/main.5ae6c181.js",
+    "main.js": "/react-portfolio/static/js/main.778d394a.js",
     "static/media/CRUSH-dating-app.gif": "/react-portfolio/static/media/CRUSH-dating-app.b1d1f129b5a18c4e09d1.gif",
     "static/media/team-profile-generator.gif": "/react-portfolio/static/media/team-profile-generator.9f9748d4f46ef1e26d0c.gif",
     "static/media/readme-generator.gif": "/react-portfolio/static/media/readme-generator.bf8d1bb1cbeca12afdfb.gif",
@@ -16,10 +16,10 @@
     "static/media/Code-Quiz-Home.png": "/react-portfolio/static/media/Code-Quiz-Home.ec37ae468546a74bef3f.png",
     "index.html": "/react-portfolio/index.html",
     "main.d757ebb7.css.map": "/react-portfolio/static/css/main.d757ebb7.css.map",
-    "main.5ae6c181.js.map": "/react-portfolio/static/js/main.5ae6c181.js.map"
+    "main.778d394a.js.map": "/react-portfolio/static/js/main.778d394a.js.map"
   },
   "entrypoints": [
     "static/css/main.d757ebb7.css",
-    "static/js/main.5ae6c181.js"
+    "static/js/main.778d394a.js"
   ]
 }

@@ -4,11 +4,16 @@
 
 Click [here](https://sumaiasorna.github.io/react-portfolio/) to view deployed application on Github page.
 
+## Repository Link
+
+Click [here](https://github.com/SumaiaSorna/react-portfolio/tree/dev) to view Code on Github page.
+
 ## Table Of Contents
 
 - [Getting Started](#getting-started)
 - [Description](#description)
 - [Deployed URL](#deployed-url)
+- [Repository Link](#repository-link)
 - [Technologies Used](#technologies-used)
 - [Launch The App](#launch-the-app)
 - [Layout Design](#layout-design)

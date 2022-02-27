@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d757ebb7.css",
+    "main.js": "/react-portfolio/static/js/main.5ae6c181.js",
+    "static/media/CRUSH-dating-app.gif": "/react-portfolio/static/media/CRUSH-dating-app.b1d1f129b5a18c4e09d1.gif",
+    "static/media/team-profile-generator.gif": "/react-portfolio/static/media/team-profile-generator.9f9748d4f46ef1e26d0c.gif",
+    "static/media/readme-generator.gif": "/react-portfolio/static/media/readme-generator.bf8d1bb1cbeca12afdfb.gif",
+    "static/media/e-commerce-back-end.gif": "/react-portfolio/static/media/e-commerce-back-end.79f6cd2e4bc39e9c811a.gif",
+    "static/media/employee-tracker.gif": "/react-portfolio/static/media/employee-tracker.dd70c933fbdbe673b50f.gif",
+    "static/media/Bored-As-Book-Home.png": "/react-portfolio/static/media/Bored-As-Book-Home.d6915139be54dd70040c.png",
+    "static/media/displayImage.jpg": "/react-portfolio/static/media/displayImage.89c82a1815485043e3d9.jpg",
+    "static/media/bg-image.png": "/react-portfolio/static/media/bg-image.2c32e1a88bc4c1d55076.png",
+    "static/media/Weather-Widget.png": "/react-portfolio/static/media/Weather-Widget.45fdf144bd843f14e455.png",
+    "static/media/Work-Day-Scheduler.png": "/react-portfolio/static/media/Work-Day-Scheduler.820163bc9c958840005a.png",
+    "static/media/Password-Generator.png": "/react-portfolio/static/media/Password-Generator.91c2b0d24a6e087b86ef.png",
+    "static/media/Code-Quiz-Home.png": "/react-portfolio/static/media/Code-Quiz-Home.ec37ae468546a74bef3f.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d757ebb7.css.map": "/react-portfolio/static/css/main.d757ebb7.css.map",
+    "main.5ae6c181.js.map": "/react-portfolio/static/js/main.5ae6c181.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d757ebb7.css",
+    "static/js/main.5ae6c181.js"
+  ]
+}

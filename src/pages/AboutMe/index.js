@@ -39,7 +39,7 @@ export const AboutMe = () => {
           className="skills-title"
         >
           {profileData.map((skill) => (
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid key={skill.title} item xs={12} sm={6} md={3}>
               <Paper elevation={0}>
                 <Typography variant="h6">{skill.title}</Typography>
                 <Divider />

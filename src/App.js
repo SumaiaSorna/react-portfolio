@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Grid } from "@mui/material";
 
-function App() {
+import { Profile } from "./components/Profile";
+import { Header } from "./components/Header/";
+import { Footer } from "./components/Footer";
+import { Projects } from "./pages/Projects";
+import { AboutMe } from "./pages/AboutMe/index";
+import { ContactMe } from "./pages/ContactMe/index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import "./App.css";
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className={"top-60"}>
+      <Grid container>
+        <Grid item xs={12} sm={12} md={4} lg={3} sx={{ m: 2 }}>
+          <Profile />
+        </Grid>
+        <Grid item xs style={{ backgroundColor: "white" }} sx={{ m: 2 }}>
+          <Router>
+            <Header />
+            <div className="main-content container-shadow">
+              <Routes>
+                <Route exact={true} path="/projects" element={<Projects />} />
+                <Route exact={true} path="/about" element={<AboutMe />} />
+                <Route exact={true} path="/contact" element={<ContactMe />} />
+                <Route path="/*" element={<AboutMe />} />
+              </Routes>
+            </div>
+          </Router>
+          <Footer />
+        </Grid>
+      </Grid>
+    </Container>
   );
-}
-
-export default App;
+};

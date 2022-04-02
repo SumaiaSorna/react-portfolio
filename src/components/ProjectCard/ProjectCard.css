@@ -1,0 +1,6 @@
+.project-card:hover {
+  animation: grow 0.5s ease-out;
+  cursor: pointer;
+  transform: scale(0.95);
+  z-index: 2;
+}

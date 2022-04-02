@@ -1,0 +1,33 @@
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: var(--main-color) !important;
+  color: black !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  border: 0 !important;
+  border-radius: 60px !important;
+  padding: 5px 12px !important;
+  line-height: 20px !important;
+  min-width: 100px;
+  outline: none !important;
+}
+
+.btn-icon-container {
+  color: #000 !important;
+  background: #fff !important;
+  border-radius: 100px !important;
+  height: 27px !important;
+  width: 27px !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 10px;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "image": "Bored-As-Book-Home.png",
+    "title": "Bored As Book",
+    "description": "An app which allows users to randomly generate a list of activities given a random list of criteria, price, and participants. ",
+    "link": "https://conorjkelly96.github.io/bored-as-book/",
+    "repo": "https://github.com/SumaiaSorna/bored-as-book"
+  },
+  {
+    "image": "CRUSH-dating-app.gif",
+    "title": "Crush Dating App",
+    "description": "Crush is a dating app, which gives users the ability to match with others.",
+    "link": "https://crush-app-2022.herokuapp.com/",
+    "repo": "https://github.com/SumaiaSorna/dating-app"
+  },
+  {
+    "image": "Password-Generator.png",
+    "title": "Password Generator",
+    "description": "Used JavaScript to generate a random, secure password for the user.",
+    "link": "https://sumaiasorna.github.io/password-generator-js/",
+    "repo": "https://github.com/SumaiaSorna/password-generator-js/tree/dev"
+  },
+  {
+    "image": "Code-Quiz-Home.png",
+    "title": "Code Quiz",
+    "description": "A timed code quiz developed with html and css and powered by javascript.",
+    "link": "https://sumaiasorna.github.io/code-quiz-js/",
+    "repo": "https://github.com/SumaiaSorna/code-quiz-js"
+  },
+  {
+    "image": "Work-Day-Scheduler.png",
+    "title": "Work-Day-Scheduler",
+    "description": "Work day scheduler is a event recorder that store user input by hour of the day.",
+    "link": "https://sumaiasorna.github.io/work-day-scheduler/",
+    "repo": "https://github.com/SumaiaSorna/work-day-scheduler"
+  },
+  {
+    "image": "Weather-Widget.png",
+    "title": "Weather Widget",
+    "description": "An application showing current and future weather forecasts and store recent search information.",
+    "link": "https://sumaiasorna.github.io/weather-widget/",
+    "repo": "https://github.com/SumaiaSorna/weather-widget"
+  },
+  {
+    "image": "employee-tracker.gif",
+    "title": "Employee Tracker",
+    "description": "Employee Tracker is a command line application, using inquirer with basic commands to add and manage Employees, Roles and Departments.",
+    "walkthroughVideo": "https://drive.google.com/drive/u/0/folders/1d_k7_OuoK3SC4kmhqX_h983h-bFf-NsD",
+    "repo": "https://github.com/SumaiaSorna/employee-tracker"
+  },
+  {
+    "image": "readme-generator.gif",
+    "title": "Readme Generator",
+    "description": "Readme-generator is an app which I have created using Node.js with the inquirer package.This app accepts user input and returns a README.md file, with sections and table of contents dynamically build based on which elements the user choose to include.",
+    "walkthroughVideo": "https://drive.google.com/drive/u/0/folders/1Btrfw7xS7A-m06o9i2nxBnDqUijh5KD3",
+    "repo": "https://github.com/SumaiaSorna/readme-generator-node.js/tree/dev"
+  },
+  {
+    "image": "team-profile-generator.gif",
+    "title": "Team Profile Generator",
+    "description": "This is a Node.js command line application uses inquirer package to requests the user about members of their team and dynamically generates a HTML document with cards for each employee.",
+    "walkthroughVideo": "https://drive.google.com/drive/u/0/folders/11z1o3F3RY0Rkd0yrz57NiyK1dHH-dSO8",
+    "repo": "https://github.com/SumaiaSorna/team-profile-generator/tree/dev"
+  },
+  {
+    "image": "e-commerce-back-end.gif",
+    "title": "E-Commerce Back End",
+    "description": "E-Commerce Back End is an app to build the back end for an e-commerce site using ORM with Sequelize and MySQL.Express was used for the server.",
+    "walkthroughVideo": "https://drive.google.com/drive/u/0/folders/1HbV8bT39oBvdrQvsiERSUyHzKGXUWjo8",
+    "repo": "https://github.com/SumaiaSorna/e-commerce-back-end/tree/dev"
+  }
+]

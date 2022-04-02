@@ -1,0 +1,20 @@
+[
+  {
+    "title": "FRONT-END",
+    "description": ["Html", "Css", "JQuery", "Javascript", "React"]
+  },
+  {
+    "title": "BACK-END",
+    "description": [
+      "GraphQL",
+      "Node.js",
+      "Express.js",
+      "User Authentication",
+      "Handlebars"
+    ]
+  },
+  {
+    "title": "DATABASE",
+    "description": ["MySQL", "MongoDB", "Sequelize"]
+  }
+]

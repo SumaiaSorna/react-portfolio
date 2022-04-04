@@ -16,11 +16,12 @@ export const AboutMe = () => {
         <Grid item xs={12}>
           <Paper elevation={0}>
             <Typography className="section-text">
-              Sumaia is a full-stack web developer in training and have the
-              necessary education, training and enthusiasm to make a difference
-              in a working environment. Sumaia was a marketing graduate but
-              retrained herself in web development, and thus poses a combined
-              skill from both disciplines for the digital world.
+              Full Stack Web Developer with a background in Digital Marketing.
+              Hardworking, patient, enthusiastic and a team player who likes to
+              play with clean codes and user-friendly application. Interested to
+              work on complex projects to share ideas for creative solutions and
+              to improve problem-solving skills. Certified graduate of the
+              University of Birmingham coding Bootcamp, March 2022.
             </Typography>
           </Paper>
         </Grid>

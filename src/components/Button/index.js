@@ -10,7 +10,7 @@ export const CustomButton = () => {
       <Button
         variant="outlined"
         target="_blank"
-        href="https://drive.google.com/drive/u/0/folders/1UQ7dOxsMXWJa80kUfh5LchYcEJuvWhQj"
+        href="https://drive.google.com/drive/folders/1MqLIPx6EAahO4d4CPF_ThFoWXITrNKhf"
         className="btn"
       >
         Download CV

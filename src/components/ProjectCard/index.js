@@ -28,6 +28,9 @@ export const ProjectCard = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   {project.title}
                 </Typography>
+                <Typography variant="body2" color="text.secondary" mb={2}>
+                  {project.skills}
+                </Typography>
                 <Typography variant="body2" color="text.secondary">
                   {project.description}
                 </Typography>
